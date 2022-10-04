@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D251AA128EC7E7000156DC8 /* Deporte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AA028EC7E7000156DC8 /* Deporte.swift */; };
+		3D251AA328EC800400156DC8 /* DeportesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AA228EC800400156DC8 /* DeportesController.swift */; };
+		3D251AA528EC806700156DC8 /* CeldaDeporteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AA428EC806700156DC8 /* CeldaDeporteController.swift */; };
+		3D251AA728EC8F8700156DC8 /* DetallesDeporteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AA628EC8F8700156DC8 /* DetallesDeporteController.swift */; };
+		3D251AA928EC973800156DC8 /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AA828EC973800156DC8 /* Jugador.swift */; };
+		3D251AAB28EC97BD00156DC8 /* CeldaJugadorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AAA28EC97BD00156DC8 /* CeldaJugadorController.swift */; };
 		3DC9920B28E5F0210041478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9920A28E5F0210041478D /* AppDelegate.swift */; };
 		3DC9920D28E5F0210041478D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9920C28E5F0210041478D /* SceneDelegate.swift */; };
 		3DC9920F28E5F0210041478D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9920E28E5F0210041478D /* ViewController.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D251AA028EC7E7000156DC8 /* Deporte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deporte.swift; sourceTree = "<group>"; };
+		3D251AA228EC800400156DC8 /* DeportesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeportesController.swift; sourceTree = "<group>"; };
+		3D251AA428EC806700156DC8 /* CeldaDeporteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaDeporteController.swift; sourceTree = "<group>"; };
+		3D251AA628EC8F8700156DC8 /* DetallesDeporteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesDeporteController.swift; sourceTree = "<group>"; };
+		3D251AA828EC973800156DC8 /* Jugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
+		3D251AAA28EC97BD00156DC8 /* CeldaJugadorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaJugadorController.swift; sourceTree = "<group>"; };
 		3DC9920728E5F0210041478D /* Proyecto2Parcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto2Parcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC9920A28E5F0210041478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC9920C28E5F0210041478D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D251A9D28EC7E1A00156DC8 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				3D251AA028EC7E7000156DC8 /* Deporte.swift */,
+				3D251AA828EC973800156DC8 /* Jugador.swift */,
+			);
+			name = Modelos;
+			sourceTree = "<group>";
+		};
+		3D251A9E28EC7E2900156DC8 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				3D251AA228EC800400156DC8 /* DeportesController.swift */,
+				3D251AA428EC806700156DC8 /* CeldaDeporteController.swift */,
+				3D251AA628EC8F8700156DC8 /* DetallesDeporteController.swift */,
+				3D251AAA28EC97BD00156DC8 /* CeldaJugadorController.swift */,
+			);
+			name = Controladores;
+			sourceTree = "<group>";
+		};
 		3DC991FE28E5F0210041478D = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +131,8 @@
 		3DC9920928E5F0210041478D /* Proyecto2Parcial */ = {
 			isa = PBXGroup;
 			children = (
+				3D251A9E28EC7E2900156DC8 /* Controladores */,
+				3D251A9D28EC7E1A00156DC8 /* Modelos */,
 				3DC9920A28E5F0210041478D /* AppDelegate.swift */,
 				3DC9920C28E5F0210041478D /* SceneDelegate.swift */,
 				3DC9920E28E5F0210041478D /* ViewController.swift */,
@@ -260,8 +294,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC9920F28E5F0210041478D /* ViewController.swift in Sources */,
+				3D251AA328EC800400156DC8 /* DeportesController.swift in Sources */,
 				3DC9920B28E5F0210041478D /* AppDelegate.swift in Sources */,
+				3D251AA728EC8F8700156DC8 /* DetallesDeporteController.swift in Sources */,
+				3D251AA928EC973800156DC8 /* Jugador.swift in Sources */,
+				3D251AAB28EC97BD00156DC8 /* CeldaJugadorController.swift in Sources */,
+				3D251AA528EC806700156DC8 /* CeldaDeporteController.swift in Sources */,
 				3DC9920D28E5F0210041478D /* SceneDelegate.swift in Sources */,
+				3D251AA128EC7E7000156DC8 /* Deporte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
