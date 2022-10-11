@@ -13,6 +13,9 @@
 		3D251AA728EC8F8700156DC8 /* DetallesDeporteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AA628EC8F8700156DC8 /* DetallesDeporteController.swift */; };
 		3D251AA928EC973800156DC8 /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AA828EC973800156DC8 /* Jugador.swift */; };
 		3D251AAB28EC97BD00156DC8 /* CeldaJugadorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D251AAA28EC97BD00156DC8 /* CeldaJugadorController.swift */; };
+		3D40451E28F5BC46000D7A6C /* MADE TOMMY Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D40451D28F5BC46000D7A6C /* MADE TOMMY Regular.otf */; };
+		3D40452028F5BC50000D7A6C /* MADE TOMMY Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D40451F28F5BC50000D7A6C /* MADE TOMMY Bold.otf */; };
+		3D40452228F5BC57000D7A6C /* MADE TOMMY Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D40452128F5BC57000D7A6C /* MADE TOMMY Medium.otf */; };
 		3DC9920B28E5F0210041478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9920A28E5F0210041478D /* AppDelegate.swift */; };
 		3DC9920D28E5F0210041478D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9920C28E5F0210041478D /* SceneDelegate.swift */; };
 		3DC9920F28E5F0210041478D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9920E28E5F0210041478D /* ViewController.swift */; };
@@ -47,6 +50,9 @@
 		3D251AA628EC8F8700156DC8 /* DetallesDeporteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesDeporteController.swift; sourceTree = "<group>"; };
 		3D251AA828EC973800156DC8 /* Jugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
 		3D251AAA28EC97BD00156DC8 /* CeldaJugadorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaJugadorController.swift; sourceTree = "<group>"; };
+		3D40451D28F5BC46000D7A6C /* MADE TOMMY Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Regular.otf"; sourceTree = "<group>"; };
+		3D40451F28F5BC50000D7A6C /* MADE TOMMY Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Bold.otf"; sourceTree = "<group>"; };
+		3D40452128F5BC57000D7A6C /* MADE TOMMY Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Medium.otf"; sourceTree = "<group>"; };
 		3DC9920728E5F0210041478D /* Proyecto2Parcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto2Parcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC9920A28E5F0210041478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC9920C28E5F0210041478D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 		3DC991FE28E5F0210041478D = {
 			isa = PBXGroup;
 			children = (
+				3D40452128F5BC57000D7A6C /* MADE TOMMY Medium.otf */,
+				3D40451F28F5BC50000D7A6C /* MADE TOMMY Bold.otf */,
+				3D40451D28F5BC46000D7A6C /* MADE TOMMY Regular.otf */,
 				3DC9920928E5F0210041478D /* Proyecto2Parcial */,
 				3DC9922028E5F0240041478D /* Proyecto2ParcialTests */,
 				3DC9922B28E5F0250041478D /* Proyecto2ParcialUITests */,
@@ -266,8 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D40452028F5BC50000D7A6C /* MADE TOMMY Bold.otf in Resources */,
+				3D40451E28F5BC46000D7A6C /* MADE TOMMY Regular.otf in Resources */,
 				3DC9921728E5F0240041478D /* LaunchScreen.storyboard in Resources */,
 				3DC9921428E5F0240041478D /* Assets.xcassets in Resources */,
+				3D40452228F5BC57000D7A6C /* MADE TOMMY Medium.otf in Resources */,
 				3DC9921228E5F0210041478D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

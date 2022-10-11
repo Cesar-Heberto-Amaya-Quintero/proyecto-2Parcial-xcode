@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetallesDeporteController: UIViewController {
+class DetallesDeporteController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
 
     @IBOutlet weak var lblAutoridad: UILabel!
@@ -36,7 +36,28 @@ class DetallesDeporteController: UIViewController {
             lblContacto.text = deporte!.contacto
             lblAccesorios.text = deporte!.accesorios
             imgFoto.image = UIImage(named: "\(deporte!.foto)2")
+        } else {
+            self.title = "Detalles deporte"
         }
+        
     }
-
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return deporte!.jugadores.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let celda = tableView.dequeueReusableCell(withIdentifier: "celdaJugador") as? CeldaJugadorController
+        celda?.lblNombre.text = deporte!.jugadores[indexPath.row].nombre
+        celda?.lblPais.text = deporte!.jugadores[indexPath.row].pais
+        return celda!
+    }
+    
 }

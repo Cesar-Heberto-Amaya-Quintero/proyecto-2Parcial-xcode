@@ -9,5 +9,7 @@
 import UIKit
 
 class CeldaJugadorController: UITableViewCell {
+    @IBOutlet weak var lblNombre: UILabel!
+    @IBOutlet weak var lblPais: UILabel!
     
 }
