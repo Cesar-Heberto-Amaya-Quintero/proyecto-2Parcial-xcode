@@ -47,7 +47,7 @@ class DeportesController: UIViewController, UITableViewDelegate, UITableViewData
         celda?.lblNombre.text = deportes[indexPath.row].nombre
         celda?.lblAutoridad.text = deportes[indexPath.row].autoridad
         celda?.lblCategoria.text = deportes[indexPath.row].categoria
-        celda?.imgFoto.layer.cornerRadius = 5
+        celda?.imgFoto.layer.cornerRadius = 10
         celda?.imgFoto.image = UIImage(named: deportes[indexPath.row].foto)
         
         return celda!
@@ -154,35 +154,35 @@ class DeportesController: UIViewController, UITableViewDelegate, UITableViewData
         
 
         //LLENAR DATOS
-        deportes.append(Deporte(nombre: "Fútbol", categoria: "En equipo", duracion: "90 minutos", equipo: "11 Jugadores", contacto: "Si", accesorios: "Pelota, guantes, taquetes, espinilleras", genero: "M y F", autoridad: "FIFA", foto: "futbol", jugadores: jugadoresFut))
+        deportes.append(Deporte(nombre: "Fútbol", categoria: "En equipo", duracion: "90 minutos", equipo: "11 Jugadores", contacto: "Si", accesorios: "Pelota, guantes, taquetes, espinilleras.", genero: "M y F", autoridad: "FIFA", foto: "futbol", jugadores: jugadoresFut))
         
-        deportes.append(Deporte(nombre: "Béisbol", categoria: "En equipo", duracion: "9 entradas", equipo: "9 Jugadores", contacto: "Si", accesorios: "Pelota, bate, guante", genero: "M y F", autoridad: "WBSC", foto: "beisbol", jugadores:  jugadoresBeis))
+        deportes.append(Deporte(nombre: "Béisbol", categoria: "En equipo", duracion: "9 entradas", equipo: "9 Jugadores", contacto: "Si", accesorios: "Pelota, bate, guante.", genero: "M y F", autoridad: "WBSC", foto: "beisbol", jugadores:  jugadoresBeis))
         
-        deportes.append(Deporte(nombre: "Basquetbol", categoria: "En equipo", duracion: "4 cuartos (10 min)", equipo: "5 Jugadores", contacto: "Si", accesorios: "Calcetines, Balones, Canastas", genero: "M y F", autoridad: "FIBA", foto: "basketball", jugadores:  jugadoresBasket))
+        deportes.append(Deporte(nombre: "Basquetbol", categoria: "En equipo", duracion: "4 cuartos (10 min)", equipo: "5 Jugadores", contacto: "Si", accesorios: "Calcetines, Balones, Canastas.", genero: "M y F", autoridad: "FIBA", foto: "basketball", jugadores:  jugadoresBasket))
         
-        deportes.append(Deporte(nombre: "Voleibol", categoria: "En equipo", duracion: "4 sets (25 pts)", equipo: "6 Jugadores", contacto: "No", accesorios: "Rodilleras, Shorts, protectores de antebrazos, coderas, tobilleras, muñequeras, balón", genero: "M y F", autoridad: "FIVB", foto: "voleibol", jugadores:  jugadoresVoley))
+        deportes.append(Deporte(nombre: "Voleibol", categoria: "En equipo", duracion: "4 sets (25 pts)", equipo: "6 Jugadores", contacto: "No", accesorios: "Rodilleras, Shorts, protectores de antebrazos, coderas, tobilleras, muñequeras, balón.", genero: "M y F", autoridad: "FIVB", foto: "voleibol", jugadores:  jugadoresVoley))
         
-        deportes.append(Deporte(nombre: "Tenis", categoria: "Ind. o equipo", duracion: "3, 5, 7 sets", equipo: "1 o 2 Jugadores", contacto: "No", accesorios: "Raqueta, pelota, red, muñequeras", genero: "M y F", autoridad: "ITF", foto: "tenis", jugadores:  jugadoresTenis))
+        deportes.append(Deporte(nombre: "Tenis", categoria: "Ind. o equipo", duracion: "3, 5, 7 sets", equipo: "1 o 2 Jugadores", contacto: "No", accesorios: "Raqueta, pelota, red, muñequeras.", genero: "M y F", autoridad: "ITF", foto: "tenis", jugadores:  jugadoresTenis))
         
-        deportes.append(Deporte(nombre: "Tenis de mesa", categoria: "Ind. o equipo", duracion: "3 o 5 sets", equipo: "1 o 2 Jugadores", contacto: "No", accesorios: "Raqueta, pelota, red, muñequeras", genero: "M y F", autoridad: "ITTF", foto: "pingPong", jugadores:  jugadoresPingPong))
+        deportes.append(Deporte(nombre: "Tenis de mesa", categoria: "Ind. o equipo", duracion: "3 o 5 sets", equipo: "1 o 2 Jugadores", contacto: "No", accesorios: "Raqueta, pelota, red, muñequeras.", genero: "M y F", autoridad: "ITTF", foto: "pingPong", jugadores:  jugadoresPingPong))
         
-        deportes.append(Deporte(nombre: "Natación", categoria: "Ind. o equipo", duracion: "50,100,200 mts", equipo: "1 o 4 Jugadores", contacto: "No", accesorios: "Traje de baño, gorro de baño, tapones de oído, pinzas para la nariz, goggles", genero: "M y F", autoridad: "FINA", foto: "natacion", jugadores:  jugadoresNatacion))
+        deportes.append(Deporte(nombre: "Natación", categoria: "Ind. o equipo", duracion: "50,100,200 mts", equipo: "1 o 4 Jugadores", contacto: "No", accesorios: "Traje de baño, gorro de baño, tapones de oído, pinzas para la nariz, goggles.", genero: "M y F", autoridad: "FINA", foto: "natacion", jugadores:  jugadoresNatacion))
         
-        deportes.append(Deporte(nombre: "Golf", categoria: "Individual", duracion: "4 - 5 horas", equipo: "2 Jugadores", contacto: "No", accesorios: "Pelotas, Tees, Guantes, Zapatos de golf, palo de golf", genero: "M y F", autoridad: "R&A, USGA", foto: "golf", jugadores:  jugadoresGolf))
+        deportes.append(Deporte(nombre: "Golf", categoria: "Individual", duracion: "4 - 5 horas", equipo: "2 Jugadores", contacto: "No", accesorios: "Pelotas, Tees, Guantes, Zapatos de golf, palo de golf.", genero: "M y F", autoridad: "R&A, USGA", foto: "golf", jugadores:  jugadoresGolf))
         
-        deportes.append(Deporte(nombre: "Pádel", categoria: "En equipo", duracion: "3 sets", equipo: "1 Jugador", contacto: "No", accesorios: "Overgrip, Protectores, muñequeras, gorras, raqueta, pelota", genero: "M y F", autoridad: "FIP", foto: "padel", jugadores:  jugadoresPadel))
+        deportes.append(Deporte(nombre: "Pádel", categoria: "En equipo", duracion: "3 sets", equipo: "1 Jugador", contacto: "No", accesorios: "Overgrip, Protectores, muñequeras, gorras, raqueta, pelota.", genero: "M y F", autoridad: "FIP", foto: "padel", jugadores:  jugadoresPadel))
         
-        deportes.append(Deporte(nombre: "Badminton", categoria: "Ind. o equipo", duracion: "3 sets", equipo: "1 o 2 Jugadores", contacto: "No", accesorios: "Raquetas, pluma o volante, red, tenis", genero: "M y F", autoridad: "BWF", foto: "badminton", jugadores:  jugadoresBadminton))
+        deportes.append(Deporte(nombre: "Badminton", categoria: "Ind. o equipo", duracion: "3 sets", equipo: "1 o 2 Jugadores", contacto: "No", accesorios: "Raquetas, pluma o volante, red, tenis.", genero: "M y F", autoridad: "BWF", foto: "badminton", jugadores:  jugadoresBadminton))
         
-        deportes.append(Deporte(nombre: "Fútbol Americano", categoria: "En equipo", duracion: "4 cuartos (15 min)", equipo: "11 Jugadores", contacto: "Si", accesorios: "Casco, pantalones acolchados, hombreras, tenis, protector bucal, coquilla, guantes, pelota", genero: "M y F", autoridad: "IFAF", foto: "americano", jugadores:  jugadoresAmericano))
+        deportes.append(Deporte(nombre: "Fútbol Americano", categoria: "En equipo", duracion: "4 cuartos (15 min)", equipo: "11 Jugadores", contacto: "Si", accesorios: "Casco, pantalones acolchados, hombreras, tenis, protector bucal, coquilla, guantes, pelota.", genero: "M y F", autoridad: "IFAF", foto: "americano", jugadores:  jugadoresAmericano))
         
-        deportes.append(Deporte(nombre: "Balonmano", categoria: "En equipo", duracion: "2 partes (30 min)", equipo: "7 Jugadores", contacto: "Si", accesorios: "Tenis, Protector bucal, coquilla, pelota", genero: "M y F", autoridad: "IHF", foto: "balonmano", jugadores:  jugadoresBalonmano))
+        deportes.append(Deporte(nombre: "Balonmano", categoria: "En equipo", duracion: "2 partes (30 min)", equipo: "7 Jugadores", contacto: "Si", accesorios: "Tenis, Protector bucal, coquilla, pelota.", genero: "M y F", autoridad: "IHF", foto: "balonmano", jugadores:  jugadoresBalonmano))
         
-        deportes.append(Deporte(nombre: "Boxeo", categoria: "Individual", duracion: "12 asaltos (3 min)", equipo: "1 Jugador", contacto: "Si", accesorios: "Guantes de boxeo, protectores bucales, coquillas, vendas, casco", genero: "M y F", autoridad: "WPBF", foto: "box", jugadores:  jugadoresBox))
+        deportes.append(Deporte(nombre: "Boxeo", categoria: "Individual", duracion: "12 asaltos (3 min)", equipo: "1 Jugador", contacto: "Si", accesorios: "Guantes de boxeo, protectores bucales, coquillas, vendas, casco.", genero: "M y F", autoridad: "WPBF", foto: "box", jugadores:  jugadoresBox))
         
-        deportes.append(Deporte(nombre: "Tiro con arco", categoria: "Ind. o equipo", duracion: "Indefinida", equipo: "1 - 3 Jugadores", contacto: "No", accesorios: "Arco, flechas, carcaj, dactilera, protector de pecho, protector de brazo, reposaflechas", genero: "M y F", autoridad: "World Archery", foto: "tiroArco", jugadores:  jugadoresArco))
+        deportes.append(Deporte(nombre: "Tiro con arco", categoria: "Ind. o equipo", duracion: "Indefinida", equipo: "1 - 3 Jugadores", contacto: "No", accesorios: "Arco, flechas, carcaj, dactilera, protector de pecho, protector de brazo, reposaflechas.", genero: "M y F", autoridad: "World Archery", foto: "tiroArco", jugadores:  jugadoresArco))
         
-        deportes.append(Deporte(nombre: "Hockey sobre hielo", categoria: "En equipo", duracion: "3 partes (20 min)", equipo: "6 Jugadores", contacto: "Si", accesorios: "Casco, patines, hombreras, coderas, rodilleras, espinilleras, guantes, protector de cuello, protector bucal, pantalones acolchados", genero: "M y F", autoridad: "IIHF", foto: "hockey", jugadores:  jugadoresHockey))
+        deportes.append(Deporte(nombre: "Hockey sobre hielo", categoria: "En equipo", duracion: "3 partes (20 min)", equipo: "6 Jugadores", contacto: "Si", accesorios: "Casco, patines, hombreras, coderas, rodilleras, espinilleras, guantes, protector de cuello, protector bucal, pantalones acolchados.", genero: "M y F", autoridad: "IIHF", foto: "hockey", jugadores:  jugadoresHockey))
 
     }
 }

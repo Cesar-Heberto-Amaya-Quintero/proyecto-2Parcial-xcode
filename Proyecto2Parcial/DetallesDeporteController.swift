@@ -75,6 +75,7 @@ class DetallesDeporteController: UIViewController, UITableViewDelegate, UITableV
                 lblAccesorios.minimumScaleFactor = 0.75
                 lblAccesorios.numberOfLines = 0
             
+            imgFoto.layer.cornerRadius = 5
             imgFoto.image = UIImage(named: "\(deporte!.foto)2")
         } else {
             self.title = "Detalles deporte"

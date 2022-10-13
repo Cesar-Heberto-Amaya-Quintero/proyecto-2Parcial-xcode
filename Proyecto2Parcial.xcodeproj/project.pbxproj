@@ -53,7 +53,7 @@
 		3D40451D28F5BC46000D7A6C /* MADE TOMMY Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Regular.otf"; sourceTree = "<group>"; };
 		3D40451F28F5BC50000D7A6C /* MADE TOMMY Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Bold.otf"; sourceTree = "<group>"; };
 		3D40452128F5BC57000D7A6C /* MADE TOMMY Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MADE TOMMY Medium.otf"; sourceTree = "<group>"; };
-		3DC9920728E5F0210041478D /* Proyecto2Parcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto2Parcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC9920728E5F0210041478D /* InSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC9920A28E5F0210041478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC9920C28E5F0210041478D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DC9920E28E5F0210041478D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		3DC9920828E5F0210041478D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DC9920728E5F0210041478D /* Proyecto2Parcial.app */,
+				3DC9920728E5F0210041478D /* InSport.app */,
 				3DC9921D28E5F0240041478D /* Proyecto2ParcialTests.xctest */,
 				3DC9922828E5F0250041478D /* Proyecto2ParcialUITests.xctest */,
 			);
@@ -188,7 +188,7 @@
 			);
 			name = Proyecto2Parcial;
 			productName = Proyecto2Parcial;
-			productReference = 3DC9920728E5F0210041478D /* Proyecto2Parcial.app */;
+			productReference = 3DC9920728E5F0210041478D /* InSport.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3DC9921C28E5F0240041478D /* Proyecto2ParcialTests */ = {
@@ -493,7 +493,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Proyecto2Parcial;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InSport;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -510,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Proyecto2Parcial;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InSport;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
